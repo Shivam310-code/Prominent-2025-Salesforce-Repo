@@ -1,3 +1,5 @@
+//Developer Name: Shivam Lachure
+
 public class SampleAccountClass {
     public static void sample(){
         List<Account> listAcc = [SELECT Id, Name, Type, BillingCity, Phone, Rating, AnnualRevenue FROM Account where Industry = 'Banking'];
